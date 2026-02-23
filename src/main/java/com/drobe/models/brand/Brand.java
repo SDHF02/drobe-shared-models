@@ -1,6 +1,6 @@
-package com.dolaby.models.brand;
+package com.drobe.models.brand;
 
-import com.dolaby.models.product.Product;
+import com.drobe.models.product.Product;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 

@@ -1,4 +1,4 @@
-package com.dolaby.models.user;
+package com.drobe.models.user;
 
 import lombok.Data;
 

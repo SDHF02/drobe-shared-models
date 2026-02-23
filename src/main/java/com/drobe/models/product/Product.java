@@ -1,4 +1,4 @@
-package com.dolaby.models.product;
+package com.drobe.models.product;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

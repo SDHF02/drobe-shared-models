@@ -1,6 +1,6 @@
-package com.dolaby.models.order;
+package com.drobe.models.order;
 
-import com.dolaby.models.product.Product;
+import com.drobe.models.product.Product;
 import lombok.Data;
 
 @Data
