@@ -9,7 +9,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductConfiguration {
     private String color;
-    private String size;
-    private int quantity;
     private List<String> images;
+    private List<SizeVariation> variations;
 }

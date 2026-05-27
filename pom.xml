@@ -6,7 +6,7 @@
 
     <groupId>com.drobe</groupId>
     <artifactId>shared-models</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.7</version>
     <packaging>jar</packaging>
 
     <name>drobe-shared-models</name>

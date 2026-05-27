@@ -15,8 +15,10 @@ public class Product {
     private String brandId;
     private List<String> images;
     private List<ProductConfiguration> configurations;
-    private String category;
     private String style;
+    private String gender;
     private boolean live;
     private String productType;
+    private String categoryId;
+    private String subCategoryName;
 }
