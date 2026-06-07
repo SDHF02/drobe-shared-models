@@ -9,4 +9,6 @@ public class OrderItem {
     private Product product;
     private Integer quantity;
     private Double price;
+    private String size;
+    private String color;
 }

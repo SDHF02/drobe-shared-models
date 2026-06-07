@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class SubOrder {
@@ -19,11 +20,14 @@ public class SubOrder {
     // The brand's name IS its id in the shared Brand model
     private String brandId;
 
-    private String orderStatus; // "pending", "confirmed", "shipped", "delivered", "cancelled"
+    private String orderStatus;
 
     private Double totalAmount; // Sum of this brand's item prices (excludes shipping/service)
 
     private Integer itemCount;
+
+    // This brand's items in the purchase order. Populated by the checkout service.
+    private List<OrderItem> orderItems;
 
     private Date createdAt;
 }
