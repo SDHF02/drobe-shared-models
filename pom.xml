@@ -29,6 +29,15 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- Spring Data MongoDB — provides @Document/@Field; provided so consumers
+             bring their own version via spring-boot-starter-data-mongodb -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>4.4.0</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- Lombok — annotation-only, not shipped in the JAR -->
         <dependency>
             <groupId>org.projectlombok</groupId>

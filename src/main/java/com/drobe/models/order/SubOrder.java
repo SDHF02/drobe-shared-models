@@ -27,7 +27,7 @@ public class SubOrder {
     private Integer itemCount;
 
     // This brand's items in the purchase order. Populated by the checkout service.
-    private List<OrderItem> orderItems;
+    private List<OrderItemEntity> orderItems;
 
     private Date createdAt;
 }
