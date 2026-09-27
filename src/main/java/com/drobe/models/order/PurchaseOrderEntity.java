@@ -25,7 +25,7 @@ public class PurchaseOrderEntity {
     private String receiptNumber;
 
     @Field("Order_status")
-    private String orderStatus; // "pending", "confirmed", "shipped", "delivered", "cancelled"
+    private OrderStatus orderStatus;
 
     @Field("Total_amount")
     private Double totalAmount;
